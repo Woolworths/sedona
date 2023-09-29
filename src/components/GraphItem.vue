@@ -659,8 +659,8 @@ export default {
         return;
       }
 
-      const verticesUrl = '/datasets/intro_vertices_power.csv'
-      const edgesUrl = '/datasets/intro_edges_power.csv'
+      const verticesUrl = import.meta.env.BASE_URL + 'datasets/intro_vertices_power.csv'
+      const edgesUrl = import.meta.env.BASE_URL + 'datasets/intro_edges_power.csv'
 
       const vM = new Map();
 

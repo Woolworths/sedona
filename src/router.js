@@ -6,6 +6,7 @@ Vue.use(Router);
 
 const router = new Router({
   mode: "history",
+  base: import.meta.env.BASE_URL,
   routes: [
     { path: '/', redirect: '/graph' },
 
